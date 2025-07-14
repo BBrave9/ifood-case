@@ -1,0 +1,49 @@
+Case Técnico — Data Architect  iFood
+Objetivo do Desafio
+O desafio consiste em:
+- Ingerir dados de corridas de táxis de Nova York em um Data Lake
+- Disponibilizar os dados para consulta (ex: via SQL)
+- Realizar análises com base nesses dados
+Dados Utilizados
+Os dados estão disponíveis no site da NYC TLC:
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+Utilize os dados de janeiro a maio de 2023.
+Instruções
+- Armazene os arquivos originais em uma landing zone (ex: bucket S3)
+- Crie uma camada de consumo com os dados estruturados
+- Pode limpar e transformar os dados conforme necessário
+- A camada de consumo deve conter as colunas:
+- VendorID
+- passenger_count
+- total_amount
+- tpep_pickup_datetime
+- tpep_dropoff_datetime
+- Modele e crie as tabelas no Data Lake (não existem previamente)
+Entrega Esperada
+- Código para leitura, transformação e ingestão dos dados no Data Lake
+- Uso de PySpark em algum momento
+- Recomenda-se o uso do Databricks Community Edition
+- Tecnologias de metadados e linguagem de consulta ficam a seu critério
+Perguntas a responder com SQL ou PySpark
+- Média mensal de total_amount dos yellow taxis
+- Média de passageiros por hora do dia no mês de maio (todos os táxis)
+Estrutura do Repositório
+
+ifood-case/
+├─ src/
+├─ analysis/
+├─ README.md
+└─ requirements.txt
+
+Critérios de Avaliação
+- Qualidade e organização do código
+- Clareza nas análises e resultados
+- Justificativas técnicas
+- Criatividade na solução
+Entrega Final
+- Crie um repositório GitHub (público ou privado)
+- Implemente sua solução
+- Atualize o README com instruções
+- Envie o link do repositório
+Dúvidas
+Abra uma issue no repositório em caso de dúvidas.
