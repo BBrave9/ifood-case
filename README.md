@@ -1,4 +1,4 @@
-# 🚕 Desafio Técnico: Engenheiro(a) de Dados Pleno — NYC Taxi Trip Data
+# 🚕 Desafio Técnico: Analytics Engineer — NYC Taxi Trip Data
 
 ## 📌 Visão Geral do Projeto
 Este repositório apresenta a solução desenvolvida para o desafio técnico de Engenheiro(a) de Dados Pleno, com foco na ingestão, transformação e análise de dados de corridas de táxis da cidade de Nova York.
